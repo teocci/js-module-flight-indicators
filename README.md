@@ -55,7 +55,7 @@ var options = {
     pitch: 0, // Pitch angle in degrees for an attitude indicator
     turn: 0, // Sets rotation of the TC
     heading: 0, // Heading angle in degrees for an heading indicator
-    verticalSpeed: 0, // Vertical speed in meters/hour for the variometer indicator
+    verticalSpeed: 0, // Vertical speed in km/min for the vertical speed indicator
     airspeed: 0, // Air speed in meters/hour for an air speed indicator
     altitude: 0, // Altitude in meters for an altimeter indicator
     pressure: 1000, // Pressure in hPa for an altimeter indicator
