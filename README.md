@@ -37,7 +37,7 @@ Create a `<div>` section to put an indicator in :
 Then, when the `div` is ready in the DOM, you can run the indicator function :
 
 ```js
-const airspeedElement = document.querySelector("#attitude");
+const attitudeElement = document.querySelector("#attitude");
 const attitude = new FlightIndicators(
     attitudeElement,
     FlightIndicators.TYPE_ATTITUDE
@@ -49,7 +49,7 @@ The type may be `airspeed`, `altimeter`, `attitude`, `heading`, `vertical` or `c
 Initial settings can be modified using the `options` parameter. Here are the valid options and the default settings :
 
 ```js
-var options = {
+const options = {
     size: 200, // Sets the size in pixels of the indicator
     roll: 0, // Roll angle in degrees for an attitude indicator
     pitch: 0, // Pitch angle in degrees for an attitude indicator
@@ -71,7 +71,11 @@ Some methods are used to update the indicators, giving the opportunity to create
 The way to use it is really simple.
 
 ```js
-var attitude = $.flightIndicator("#attitude", "attitude");
+const attitudeElement = document.querySelector("#attitude");
+const attitude = new FlightIndicators(
+    attitudeElement,
+    FlightIndicators.TYPE_ATTITUDE
+);
 attitude.setRoll(30); // Sets the roll to 30 degrees
 ```
 
