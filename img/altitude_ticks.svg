@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+    y="0px" width="400px" height="400px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+    <defs>
+        <style type="text/css">
+            @import url('http://fonts.googleapis.com/css?family=Noto+Sans+KR|Nanum+Gothic+Coding');
+        </style>
+    </defs>
+    <style>
+        .marks {
+            transform: translate(50%, 50%);
+        }
+
+        .marks line {
+            --base-angle: 270deg;
+            --base-stroke-width: 2;
+            transform: rotate(var(--base-angle));
+            stroke-width: var(--base-stroke-width);
+            fill: none;
+            stroke: white;
+            stroke-miterlimit: 10;
+        }
+
+        .marks .long-ticks .tick {
+            --base-stroke-width: 4;
+        }
+
+        .marks .short-ticks .tick {
+            --base-stroke-width: 2;
+        }
+
+        .marks .long-ticks .tick:nth-child(2) {
+            --base-angle: 306deg;
+        }
+
+        .marks .long-ticks .tick:nth-child(3) {
+            --base-angle: 342deg;
+        }
+
+        .marks .long-ticks .tick:nth-child(4) {
+            --base-angle: 18deg;
+        }
+
+        .marks .long-ticks .tick:nth-child(5) {
+            --base-angle: 54deg;
+        }
+
+        .marks .long-ticks .tick:nth-child(6) {
+            --base-angle: 90deg;
+        }
+
+        .marks .long-ticks .tick:nth-child(7) {
+            --base-angle: 126deg;
+        }
+
+        .marks .long-ticks .tick:nth-child(8) {
+            --base-angle: 162deg;
+        }
+
+        .marks .long-ticks .tick:nth-child(9) {
+            --base-angle: 198deg;
+        }
+
+        .marks .long-ticks .tick:nth-child(10) {
+            --base-angle: 234deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(1) {
+            --base-angle: 277.2deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(2) {
+            --base-angle: 284.4deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(3) {
+            --base-angle: 291.6deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(4) {
+            --base-angle: 298.8deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(5) {
+            --base-angle: 313.2deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(6) {
+            --base-angle: 320.4deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(7) {
+            --base-angle: 327.6deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(8) {
+            --base-angle: 334.8deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(9) {
+            --base-angle: 349.2deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(10) {
+            --base-angle: 356.4deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(11) {
+            --base-angle: 3.6deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(12) {
+            --base-angle: 10.8deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(13) {
+            --base-angle: 25.2deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(14) {
+            --base-angle: 32.4deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(15) {
+            --base-angle: 39.6deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(16) {
+            --base-angle: 46.8deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(17) {
+            --base-angle: 61.2deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(18) {
+            --base-angle: 68.4deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(19) {
+            --base-angle: 75.6deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(20) {
+            --base-angle: 82.8deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(21) {
+            --base-angle: 97.2deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(22) {
+            --base-angle: 104.4deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(23) {
+            --base-angle: 111.6deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(24) {
+            --base-angle: 118.8deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(25) {
+            --base-angle: 133.2deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(26) {
+            --base-angle: 140.4deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(27) {
+            --base-angle: 147.6deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(28) {
+            --base-angle: 154.8deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(29) {
+            --base-angle: 169.2deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(30) {
+            --base-angle: 176.4deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(31) {
+            --base-angle: 183.6deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(32) {
+            --base-angle: 190.8deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(33) {
+            --base-angle: 205.2deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(34) {
+            --base-angle: 212.4deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(35) {
+            --base-angle: 219.6deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(36) {
+            --base-angle: 226.8deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(37) {
+            --base-angle: 241.2deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(38) {
+            --base-angle: 248.4deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(39) {
+            --base-angle: 255.6deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(40) {
+            --base-angle: 262.8deg;
+        }
+
+        .mark-labels {
+            --base-x: 50%;
+            --base-y: 50%;
+            transform: translate(var(--base-x), var(--base-y));
+        }
+
+        .mark-labels>text {
+            font-family: sans-serif;
+            font-size: 25px;
+            font-weight: bold;
+            dominant-baseline: middle;
+            text-anchor: middle;
+            fill: white;
+        }
+
+        .mark-labels .numerical {
+            --base-x: 0%;
+            --base-y: 0%;
+            transform: translate(var(--base-x), var(--base-y));
+        }
+
+        .mark-labels .numerical:nth-child(1) {
+            --base-x: 0;
+            --base-y: -27%;
+        }
+
+        .mark-labels .numerical:nth-child(2) {
+            --base-x: 16%;
+            --base-y: -22%;
+        }
+
+        .mark-labels .numerical:nth-child(3) {
+            --base-x: 27%;
+            --base-y: -11%;
+        }
+
+        .mark-labels .numerical:nth-child(4) {
+            --base-x: 27%;
+            --base-y: 13%;
+        }
+
+        .mark-labels .numerical:nth-child(5) {
+            --base-x: 16%;
+            --base-y: 22%;
+        }
+
+        .mark-labels .numerical:nth-child(6) {
+            --base-x: 0%;
+            --base-y: 28%;
+        }
+
+        .mark-labels .numerical:nth-child(7) {
+            --base-x: -17%;
+            --base-y: 22%;
+        }
+
+        .mark-labels .numerical:nth-child(8) {
+            --base-x: -26%;
+            --base-y: 9%;
+        }
+
+        .mark-labels .numerical:nth-child(9) {
+            --base-x: -26%;
+            --base-y: -8%;
+        }
+
+        .mark-labels .numerical:nth-child(10) {
+            --base-x: -16%;
+            --base-y: -22%;
+        }
+
+        .labels>text {
+            font-family: Noto Sans KR, sans-serif;
+            font-size: 11px;
+            dominant-baseline: middle;
+            text-anchor: middle;
+            fill: white;
+        }
+
+        .labels .title {
+            font-size: 25px;
+            font-weight: 600;
+        }
+
+        .labels>text>tspan {
+            font-size: 12px;
+            font-weight: 500;
+        }
+    </style>
+    <filter filterUnits="objectBoundingBox" id="shadow_drop_1">
+        <feGaussianBlur stdDeviation="5" result="blur" in="SourceAlpha"></feGaussianBlur>
+        <feOffset dy="0" dx="0" result="offsetBlurredAlpha" in="blur"></feOffset>
+        <feMerge>
+            <feMergeNode in="offsetBlurredAlpha"></feMergeNode>
+            <feMergeNode in="SourceGraphic"></feMergeNode>
+        </feMerge>
+    </filter>
+
+    <path fill="#232323" filter="url(#shadow_drop_1)" d="M200,47c-84.497,0-153,68.503-153,153s68.503,153,153,153
+	s153-68.503,153-153S284.831,47,200,47z M275.85,221.422c1.929-6.813,2.984-13.992,2.984-21.422
+	c0-7.397-1.045-14.546-2.958-21.332l49.113-13.869c3.155,11.193,4.846,23,4.846,35.201c0,12.256-1.704,24.114-4.886,35.351
+	L275.85,221.422z" />
+    <g class="marks">
+        <g class="long-ticks">
+            <line class="tick" x1="127" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="127" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="127" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="127" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="127" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="127" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="127" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="127" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="127" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="127" y1="0" x2="150" y2="0" />
+        </g>
+        <g class="short-ticks">
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+        </g>
+    </g>
+
+    <g class="mark-labels">
+        <text class="numerical" x="0" y="0">0</text>
+        <text class="numerical" x="0" y="0">1</text>
+        <text class="numerical" x="0" y="0">2</text>
+        <text class="numerical" x="0" y="0">3</text>
+        <text class="numerical" x="0" y="0">4</text>
+        <text class="numerical" x="0" y="0">5</text>
+        <text class="numerical" x="0" y="0">6</text>
+        <text class="numerical" x="0" y="0">7</text>
+        <text class="numerical" x="0" y="0">8</text>
+        <text class="numerical" x="0" y="0">9</text>
+    </g>
+
+    <g class="labels">
+        <text x="53.5%" y="19%">M</text>
+        <text x="46%" y="19%">100</text>
+
+        <text class="title" x="50%" y="40%">고도</text>
+        <text x="50%" y="34%">1000 M</text>
+        <text>
+            <tspan x="35%" y="48%">CALIBRATED</tspan>
+            <tspan x="35%" y="52%">TO 15 KM</tspan>
+        </text>
+    </g>
+
+    <g>
+        <path fill="none"
+            d="M174.243,243.809l61.533,38.566c3.073-1.324,6.051-2.824,8.936-4.471l-66.101-41.43L174.243,243.809z" />
+        <path fill="none"
+            d="M165.159,259.06l47.482,29.761c4.114-0.565,8.138-1.413,12.055-2.517l-55.169-34.578L165.159,259.06z" />
+        <path fill="none"
+            d="M214.732,238.17c-3.751,1.431-7.764,2.328-11.956,2.578l34.692,21.744l-9.571-16.07L214.732,238.17z" />
+        <path fill="none"
+            d="M156.076,274.312l18.447,11.562c7.001,2.103,14.36,3.375,21.967,3.696l-36.045-22.592L156.076,274.312z" />
+        <path fill="#FFFFFF" d="M154.451,277.04c6.239,3.724,12.973,6.701,20.072,8.833l-18.447-11.562L154.451,277.04z" />
+        <path fill="#FFFFFF" d="M160.444,266.978l36.045,22.592c1.275,0.054,2.555,0.09,3.844,0.09c4.176,0,8.285-0.286,12.308-0.839
+		l-47.482-29.761L160.444,266.978z" />
+        <path fill="#FFFFFF"
+            d="M169.527,251.726l55.169,34.578c3.801-1.072,7.5-2.386,11.079-3.929l-61.533-38.566L169.527,251.726z" />
+        <path fill="#FFFFFF" d="M200,240.833c-7.636,0-14.773-2.12-20.868-5.794l-0.855,1.437l66.101,41.43
+		c0.482-0.275,0.967-0.544,1.443-0.828l-8.686-14.584l-34.692-21.744C201.967,240.797,201.155,240.833,200,240.833z" />
+        <path fill="#FFFFFF" d="M221.14,235.076c-2.025,1.216-4.173,2.242-6.408,3.095l13.165,8.252L221.14,235.076z" />
+    </g>
+    <!-- <tspan x="35%" y="48%" fill="#FFFFFF" font-family="sans-serif" font-size="14" dominant-baseline="middle" text-anchor="middle">15 KM로</tspan>
+	<tspan x="35%" y="52%" fill="#FFFFFF" font-family="sans-serif" font-size="14" dominant-baseline="middle" text-anchor="middle">보정</tspan> -->
+</svg>

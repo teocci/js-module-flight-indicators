@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+    y="0px" width="400px" height="400px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+
+    <style>
+        .bg-base {
+            fill: #232323;
+        }
+
+        .shades>* {
+            --base-stroke-width: 2;
+            fill: none;
+            stroke: white;
+            stroke-miterlimit: 10;
+            stroke-width: var(--base-stroke-width);
+        }
+
+        .shades path {
+        }
+
+        .shades polygon {
+            fill: white;
+        }
+
+        .marks {
+            transform: translate(50%, 50%);
+        }
+
+        .marks line {
+            --base-angle: 270deg;
+            --base-stroke-width: 2;
+            transform: rotate(var(--base-angle));
+            stroke-width: var(--base-stroke-width);
+            fill: none;
+            stroke: white;
+            stroke-miterlimit: 10;
+        }
+
+        .marks .long-ticks .tick:nth-child(1) {
+            --base-angle: -90deg;
+        }
+
+        .marks .long-ticks .tick:nth-child(2) {
+            --base-angle: -45deg;
+        }
+
+        .marks .long-ticks .tick:nth-child(3) {
+            --base-angle: -9deg;
+        }
+
+        .marks .long-ticks .tick:nth-child(4) {
+            --base-angle: 9deg;
+        }
+
+        .marks .long-ticks .tick:nth-child(5) {
+            --base-angle: 45deg;
+        }
+
+        .marks .long-ticks .tick:nth-child(6) {
+            --base-angle: 90deg;
+        }
+
+        .marks .long-ticks .tick:nth-child(7) {
+            --base-angle: 135deg;
+        }
+
+        .marks .long-ticks .tick:nth-child(8) {
+            --base-angle: 180deg;
+        }
+
+        .marks .long-ticks .tick:nth-child(9) {
+            --base-angle: 225deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(1) {
+            --base-angle: -81deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(2) {
+            --base-angle: -72deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(3) {
+            --base-angle: -63deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(4) {
+            --base-angle: -54deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(5) {
+            --base-angle: -36deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(6) {
+            --base-angle: -27deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(7) {
+            --base-angle: -18deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(8) {
+            --base-angle: 18deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(9) {
+            --base-angle: 27deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(10) {
+            --base-angle: 36deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(11) {
+            --base-angle: 54deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(12) {
+            --base-angle: 63deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(13) {
+            --base-angle: 72deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(14) {
+            --base-angle: 81deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(15) {
+            --base-angle: 99deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(16) {
+            --base-angle: 108deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(17) {
+            --base-angle: 117deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(18) {
+            --base-angle: 126deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(19) {
+            --base-angle: 139.5deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(20) {
+            --base-angle: 144deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(21) {
+            --base-angle: 148.5deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(22) {
+            --base-angle: 153deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(23) {
+            --base-angle: 157.5deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(24) {
+            --base-angle: 162deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(25) {
+            --base-angle: 166.5deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(26) {
+            --base-angle: 171deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(27) {
+            --base-angle: 175.5deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(28) {
+            --base-angle: 184.5deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(29) {
+            --base-angle: 189deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(30) {
+            --base-angle: 193.5deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(31) {
+            --base-angle: 198deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(32) {
+            --base-angle: 202.5deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(33) {
+            --base-angle: 207deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(34) {
+            --base-angle: 211.5deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(35) {
+            --base-angle: 216deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(36) {
+            --base-angle: 220.5deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(37) {
+            --base-angle: 234deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(38) {
+            --base-angle: 243deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(39) {
+            --base-angle: 252deg;
+        }
+
+        .marks .short-ticks .tick:nth-child(40) {
+            --base-angle: 261deg;
+        }
+
+
+        .mark-labels {
+            --base-x: 50%;
+            --base-y: 50%;
+            transform: translate(var(--base-x), var(--base-y));
+        }
+
+        .mark-labels>text {
+            font-family: sans-serif;
+            font-size: 25px;
+            font-weight: bold;
+            dominant-baseline: middle;
+            text-anchor: middle;
+            fill: white;
+        }
+
+        .mark-labels .numerical {
+            --base-x: 0%;
+            --base-y: 0%;
+            transform: translate(var(--base-x), var(--base-y));
+            letter-spacing: -3
+        }
+
+        .mark-labels .title {
+            font-family: Noto Sans KR, sans-serif;
+            font-size: 14px;
+        }
+
+        .mark-labels .numerical:nth-child(1) {
+            --base-y: -27%;
+        }
+
+        .mark-labels .numerical:nth-child(2) {
+            --base-x: 19%;
+            --base-y: -18%;
+        }
+
+        .mark-labels .numerical:nth-child(3) {
+            --base-x: 28%;
+        }
+
+        .mark-labels .numerical:nth-child(4) {
+            --base-x: 19%;
+            --base-y: 19%;
+        }
+
+        .mark-labels .numerical:nth-child(5) {
+            --base-y: 27%;
+        }
+
+        .mark-labels .numerical:nth-child(6) {
+            --base-x: -19.5%;
+            --base-y: 19%;
+        }
+
+        .mark-labels .numerical:nth-child(7) {
+            --base-x: -28%;
+        }
+
+        .mark-labels .numerical:nth-child(8) {
+            --base-x: -19.5%;
+            --base-y: -18.5%;
+        }
+    </style>
+
+    <circle class="bg-base" cx="200.333" cy="200" r="161" />
+
+
+    <g class="marks">
+        <g class="long-ticks">
+            <line class="tick" x1="127" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="127" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="127" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="127" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="127" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="127" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="127" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="127" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="127" y1="0" x2="150" y2="0" />
+        </g>
+        <g class="short-ticks">
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+            <line class="tick" x1="134" y1="0" x2="150" y2="0" />
+        </g>
+    </g>
+
+    <g class="mark-labels">
+        <text class="numerical" x="0" y="0">1</text>
+        <text class="numerical" x="0" y="0">1.5</text>
+        <text class="numerical" x="0" y="0" dy="1">2</text>
+        <text class="numerical" x="0" y="0">1.5</text>
+        <text class="numerical" x="0" y="0">1</text>
+        <text class="numerical" x="0" y="0">.5</text>
+        <text class="numerical" x="0" y="0" dy="2">0</text>
+        <text class="numerical" x="0" y="0">.5</text>
+
+        <text class="title" x="0" y="-10%">VERTICAL SPEED</text>
+        <text class="title" x="0" y="10%">1 KM PER MIN</text>
+    </g>
+
+    <g class="shades">
+        <path d="M 337 178 A 130 130 0 0 1 337 222" />
+
+        <path d="M 120 180 H 84 C 84 180 84 169 90 160" />
+        <polygon points="92,162 88,158 92,158" />
+
+        <path d="M 120 220 H 84 C 84 220 84 231 90 240" />
+        <polygon points="92,238 88,242 92,242" />
+    </g>
+</svg>
