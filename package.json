@@ -1,7 +1,7 @@
 {
     "name": "flight-indicators-js",
     "title": "Flight Indicators JS",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "This module allows you to display high quality flight indicators using html, css and SVG images.",
     "type": "commonjs",
     "main": "./cjs/module-flight-indicators.js",
