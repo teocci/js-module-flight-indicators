@@ -109,5 +109,5 @@ The code supplied here is covered under the MIT Open Source License.
 
 Flight Indicators JS was developed based on [Flight Indicators jQuery plugin][2]
 
-[1]: https://raw.githubusercontent.com/teocci/js-module-flight-indicators/f308293fd7f3ec331f2c28e36919e37dbd307e32/assets/fijs-sample.png
+[1]: https://github.com/teocci/js-module-flight-indicators/blob/main/assets/fijs-sample.png?raw=true
 [2]: http://sebmatton.github.io/
