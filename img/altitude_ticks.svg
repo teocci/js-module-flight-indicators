@@ -306,7 +306,7 @@
         }
 
         .labels .title {
-            font-size: 25px;
+            font-size: 18px;
             font-weight: 600;
         }
 
@@ -315,7 +315,7 @@
             font-weight: 500;
         }
     </style>
-    <filter filterUnits="objectBoundingBox" id="shadow_drop_1">
+    <filter filterUnits="objectBoundingBox" id="filter-shadow">
         <feGaussianBlur stdDeviation="5" result="blur" in="SourceAlpha"></feGaussianBlur>
         <feOffset dy="0" dx="0" result="offsetBlurredAlpha" in="blur"></feOffset>
         <feMerge>
@@ -324,10 +324,9 @@
         </feMerge>
     </filter>
 
-    <path fill="#232323" filter="url(#shadow_drop_1)" d="M200,47c-84.497,0-153,68.503-153,153s68.503,153,153,153
-	s153-68.503,153-153S284.831,47,200,47z M275.85,221.422c1.929-6.813,2.984-13.992,2.984-21.422
-	c0-7.397-1.045-14.546-2.958-21.332l49.113-13.869c3.155,11.193,4.846,23,4.846,35.201c0,12.256-1.704,24.114-4.886,35.351
-	L275.85,221.422z" />
+    <path fill="#232323" filter="url(#filter-shadow)"
+        d="M 200 47 A 153 153 0 1 0 200 353 A 153 153 0 1 0 200 47 Z M 276 222 C 278.5 210 278.5 190 276 178 L 325 165 C 330 189 330 211 325 235 Z" />
+
     <g class="marks">
         <g class="long-ticks">
             <line class="tick" x1="127" y1="0" x2="150" y2="0" />
@@ -411,7 +410,7 @@
         <text x="53.5%" y="19%">M</text>
         <text x="46%" y="19%">100</text>
 
-        <text class="title" x="50%" y="40%">고도</text>
+        <text class="title" x="50%" y="40%">ALTITUDE</text>
         <text x="50%" y="34%">1000 M</text>
         <text>
             <tspan x="35%" y="48%">CALIBRATED</tspan>
@@ -419,7 +418,13 @@
         </text>
     </g>
 
-    <g>
+    <g class="others">
+        <path fill="#FFFFFF"
+            d="M 154.5 277 C 160.7 280.7 167.5 283.7 174.6 285.8 L 156.2 274.2 Z M 160.4 267 L 196.4 289.6 C 197.7 289.7 199 289.7 200.2 289.7 C 204.4 289.7 208.5 289.4 212.5 288.9 L 165 259.1 Z M 169.5 251.7 L 224.7 286.3 C 228.5 285.2 232.2 283.9 235.8 282.4 L 174.3 243.8 Z M 202.3 240.7 C 192.4 240.8 185.2 238.7 179.1 235 L 178.2 236.4 L 244.3 277.8 C 244.8 277.5 245.3 277.3 245.7 277 L 237 262.4 Z M 221.1 235.1 C 219.1 236.3 216.9 237.3 214.7 238.2 L 227.9 246.5 Z" />
+    </g>
+
+
+    <!-- <g>
         <path fill="none"
             d="M174.243,243.809l61.533,38.566c3.073-1.324,6.051-2.824,8.936-4.471l-66.101-41.43L174.243,243.809z" />
         <path fill="none"
@@ -436,7 +441,7 @@
         <path fill="#FFFFFF" d="M200,240.833c-7.636,0-14.773-2.12-20.868-5.794l-0.855,1.437l66.101,41.43
 		c0.482-0.275,0.967-0.544,1.443-0.828l-8.686-14.584l-34.692-21.744C201.967,240.797,201.155,240.833,200,240.833z" />
         <path fill="#FFFFFF" d="M221.14,235.076c-2.025,1.216-4.173,2.242-6.408,3.095l13.165,8.252L221.14,235.076z" />
-    </g>
+    </g> -->
     <!-- <tspan x="35%" y="48%" fill="#FFFFFF" font-family="sans-serif" font-size="14" dominant-baseline="middle" text-anchor="middle">15 KM로</tspan>
 	<tspan x="35%" y="52%" fill="#FFFFFF" font-family="sans-serif" font-size="14" dominant-baseline="middle" text-anchor="middle">보정</tspan> -->
 </svg>

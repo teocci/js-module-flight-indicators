@@ -30,7 +30,6 @@ setInterval(function () {
     // Altimeter update
     altimeter.updateAltitude(10 * increment);
     altimeter.updatePressure(1000 + 3 * Math.sin(increment / 50))
-    increment++
     // altimeter.resize(600)
     // altimeter.showBox()
 
@@ -43,4 +42,5 @@ setInterval(function () {
 
     // Vertical speed update
     vertical.updateVerticalSpeed(2 * Math.sin(increment / 10))
+    increment++
 }, 50)

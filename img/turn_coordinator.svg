@@ -1,32 +1,66 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="540" height="540" id="svg6534"
     preserveAspectRatio="X200Y200 meet">
+    <style type="text/css">
+        @import url('http://fonts.googleapis.com/css?family=Noto+Sans+KR|Nanum+Gothic+Coding');
+
+        .labels {
+            --base-x: 50%;
+            --base-y: 50%;
+            transform: translate(var(--base-x), var(--base-y));
+        }
+
+        .labels text {
+            font-family: Noto, sans-serif;
+            font-size: 16px;
+            dominant-baseline: middle;
+            text-anchor: middle;
+            fill: white;
+            filter: url(#inner-shadow)
+        }
+
+        .labels .placard .label {}
+
+        .labels .title {
+            font-size: 16px;
+        }
+
+        .labels .turn-time {
+            font-size: 20px;
+        }
+
+        .labels .trademarks .label {
+            font-size: 32px;
+        }
+
+        .labels .no-pitch .label {
+            font-size: 15px;
+        }
+    </style>
     <defs id="defs6536">
         <linearGradient id="linearGradient7398">
-            <stop id="stop7400" style="stop-color:#a8a8a8;stop-opacity:1" offset="0" />
-            <stop id="stop7402" style="stop-color:#515151;stop-opacity:1" offset="1" />
+            <stop style="stop-color:#a8a8a8;stop-opacity:1" offset="0" />
+            <stop style="stop-color:#515151;stop-opacity:1" offset="1" />
         </linearGradient>
         <linearGradient id="linearGradient7376">
-            <stop id="stop7378" style="stop-color:#1d1d1d;stop-opacity:1" offset="0" />
-            <stop id="stop7380" style="stop-color:#acacac;stop-opacity:1" offset="1" />
+            <stop style="stop-color:#1d1d1d;stop-opacity:1" offset="0" />
+            <stop style="stop-color:#acacac;stop-opacity:1" offset="1" />
         </linearGradient>
         <linearGradient id="linearGradient7357">
-            <stop id="stop7359" style="stop-color:#222222;stop-opacity:1" offset="0" />
-            <stop id="stop7361" style="stop-color:#888888;stop-opacity:1" offset="1" />
+            <stop style="stop-color:#222222;stop-opacity:1" offset="0" />
+            <stop style="stop-color:#888888;stop-opacity:1" offset="1" />
         </linearGradient>
         <linearGradient id="linearGradient7280">
-            <stop id="stop7282" style="stop-color:#989898;stop-opacity:1" offset="0" />
-            <stop id="stop7284" style="stop-color:#161616;stop-opacity:1" offset="1" />
+            <stop style="stop-color:#989898;stop-opacity:1" offset="0" />
+            <stop style="stop-color:#161616;stop-opacity:1" offset="1" />
         </linearGradient>
-        <filter x="-0.012963847" y="-0.21167447" width="1.0259277" height="1.4233489" color-interpolation-filters="sRGB"
+        <filter x="0" y="0" width="1" height="1.5" color-interpolation-filters="sRGB"
             id="filter7272">
             <feGaussianBlur id="feGaussianBlur7274" stdDeviation="1.3586542" />
         </filter>
-        <filter x="-0.012963847" y="-0.21167447" width="1.0259277" height="1.4233489" color-interpolation-filters="sRGB"
+        <filter x="0" y="0" width="1" height="1.5" color-interpolation-filters="sRGB"
             id="filter7276">
             <feGaussianBlur id="feGaussianBlur7278" stdDeviation="1.3586542" />
         </filter>
@@ -64,13 +98,22 @@
             gradientTransform="matrix(1.0317265,0,0,1.0317265,-10.411468,-40.920085)" />
         <linearGradient x1="330.24167" y1="125.12653" x2="460.05554" y2="575.40216" id="linearGradient7460"
             xlink:href="#linearGradient7357" gradientUnits="userSpaceOnUse"
-            gradientTransform="matrix(1.0046481,0,0,1.0046481,1.2957406,-32.018626)" />
+            gradientTransform="matrix(1,0,0,1,1.2957406,-32.018626)" />
         <linearGradient x1="346.57809" y1="73.12307" x2="545.03467" y2="529.28961" id="linearGradient7498"
             xlink:href="#linearGradient7398" gradientUnits="userSpaceOnUse"
-            gradientTransform="matrix(0.99470475,0,0,0.99470475,2.5803031,1.3941645)" />
-        <filter x="-0.027712595" y="-0.1791476" width="1.0554252" height="1.3582952" color-interpolation-filters="sRGB"
-            id="filter3669">
-            <feGaussianBlur id="feGaussianBlur3671" stdDeviation="3.4406603" />
+            gradientTransform="matrix(1,0,0,1,2.6,1.5)" />
+        <filter x="0" y="0" width="1" height="1.5" color-interpolation-filters="sRGB" id="filter3669">
+            <feGaussianBlur stdDeviation="3.5" />
+        </filter>
+        <filter id="inner-shadow">
+            <feOffset dx="0" dy="1" />
+            <feComposite operator="out" result="fc-out-result" in2="SourceGraphic" />
+            <feFlood flood-opacity=".6" flood-color="rgb(0,0,0)" />
+            <feComposite operator="in" in2="fc-out-result" result="fc-in-result" />
+            <feMerge>
+                <feMergeNode in="fc-in-result" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
         </filter>
     </defs>
     <g transform="translate(-78,33), scale(0.8)" id="layer3" style="display:inline">
@@ -138,40 +181,28 @@
     </g>
 
 
-    
     <g>
         <path d="M 474 270 A 204 204 0 1 0 66 270 A 204 204 0 1 0 474 270
 M 466 270 A 196 196 0 1 0 74 270 A 196 196 0 1 0 466 270" id="path7371"
             style="fill:url(#linearGradient7457);fill-opacity:1;fill-rule:evenodd;stroke:none" />
     </g>
 
+    <g class="labels">
+        <g class="placard">
+            <text class="label" x="0%" y="-29%">D.C.</text>
+            <text class="label" x="0%" y="-26%">ELEC.</text>
+        </g>
 
+        <text class="title" x="0%" y="7%">TURN COORDINATOR</text>
+        <text class="turn-time" x="0%" y="21%">2 MIN.</text>
 
-
-    <text x="50%" y="497.78818" id="text7174" dominant-baseline="middle" text-anchor="middle"
-        style="font-size:15px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-condensed;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:sans-serif">
-        <tspan x="50%" y="77.5%" id="tspan7176">NO PITCH</tspan>
-        <tspan x="50%" y="80.5%" id="tspan7178">INFORMATION</tspan>
-    </text>
-    <text x="50%" y="10%" id="text7190" dominant-baseline="middle" text-anchor="middle"
-        style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-condensed;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:sans-serif">
-        <tspan x="50%" y="20.5%" id="tspan7194">D.C.</tspan>
-        <tspan x="50%" y="24.1%" id="tspan7198">ELEC.</tspan>
-    </text>
-    <text x="50%" y="50%" id="text7200" dominant-baseline="middle" text-anchor="middle"
-        style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-condensed;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:sans-serif">
-        <tspan x="50%" y="58%" id="tspan7204">TURN COORDINATOR</tspan>
-    </text>
-    <text x="50%" y="71%" id="text7237" dominant-baseline="middle" text-anchor="middle"
-        style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-condensed;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:sans-serif">
-        <tspan x="50%" y="71%" id="tspan7239">2 MIN.</tspan>
-    </text>
-    <text x="70%" y="70%" id="text7241" dominant-baseline="middle" text-anchor="middle"
-        style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-condensed;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:sans-serif">
-        <tspan x="70%" y="70%" id="tspan7243">R</tspan>
-    </text>
-    <text x="30%" y="70%" id="text7245" dominant-baseline="middle" text-anchor="middle"
-        style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-condensed;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:sans-serif">
-        <tspan x="30%" y="70%" id="tspan7247">L</tspan>
-    </text>
+        <g class="trademarks">
+            <text class="label" x="-20%" y="20%">L</text>
+            <text class="label" x="20%" y="20%">R</text>
+        </g>
+        <g class="no-pitch">
+            <text class="label" x="0%" y="27%">NO PITCH</text>
+            <text class="label" x="0%" y="30%">INFORMATION</text>
+        </g>
+    </g>
 </svg>

@@ -12,7 +12,7 @@ Currently supported indicators are :
 
 -   Air speed
 -   Altimeter
--   Attitude (artificial horizon)
+-   Attitude (Artificial Horizon)
 -   Heading
 -   Turn Coordinator
 -   Vertical speed
@@ -23,7 +23,7 @@ To use FIJS just import the `css` and `js` files in your html file:
 
 ```html
 <link rel="stylesheet" type="text/css" href="css/flight-indicators.css" />
-<script src="js/jquery.flight-indicator.js"></script>
+<script src="js/flight-indicator.js"></script>
 ```
 
 ### Instantiation
@@ -76,7 +76,7 @@ const attitude = new FlightIndicators(
     attitudeElement,
     FlightIndicators.TYPE_ATTITUDE
 );
-attitude.setRoll(30); // Sets the roll to 30 degrees
+attitude.updateRoll(30); // Sets the roll to 30 degrees
 ```
 
 Here are the valid methods :
@@ -109,5 +109,5 @@ The code supplied here is covered under the MIT Open Source License.
 
 Flight Indicators JS was developed based on [Flight Indicators jQuery plugin][2]
 
-[1]: https://raw.githubusercontent.com/teocci/js-module-flight-indicators/f308293fd7f3ec331f2c28e36919e37dbd307e32/assets/2021-12-07_20-35-57.png
+[1]: https://raw.githubusercontent.com/teocci/js-module-flight-indicators/f308293fd7f3ec331f2c28e36919e37dbd307e32/assets/fijs-sample.png
 [2]: http://sebmatton.github.io/

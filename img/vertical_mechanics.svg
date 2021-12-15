@@ -374,7 +374,7 @@
         <text class="numerical" x="0" y="0">.5</text>
 
         <text class="title" x="0" y="-10%">VERTICAL SPEED</text>
-        <text class="title" x="0" y="10%">1 KM PER MIN</text>
+        <text class="title" x="0" y="10%">1 KM PER HOUR</text>
     </g>
 
     <g class="shades">
