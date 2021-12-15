@@ -26,6 +26,11 @@ To use FIJS just import the `css` and `js` files in your html file:
 <script src="js/flight-indicator.js"></script>
 ```
 
+To import into a module use:
+```js
+import FlightIndicators from './module-flight-indicators.js'
+```
+
 ### Instantiation
 
 Create a `<div>` section to put an indicator in :

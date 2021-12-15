@@ -2,7 +2,7 @@
  * Created by Teocci.
  * Author: teocci@yandex.com on 2021-Nov-04
  */
-class FlightIndicators {
+export default class FlightIndicators {
     static TAG = 'instrument'
 
     static TYPE_HEADING = 'heading'
