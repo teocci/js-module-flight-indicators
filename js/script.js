@@ -1,4 +1,4 @@
-import FlightIndicators from './module-flight-indicators.js'
+import FlightIndicators from '../esm/module-flight-indicators.mjs'
 
 const airspeedElement = document.querySelector('#airspeed')
 const attitudeElement = document.querySelector('#attitude')

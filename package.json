@@ -1,33 +1,39 @@
 {
-  "name": "flight-indicators-js",
-  "title": "Flight Indicators JS",
-  "version": "1.0.4",
-  "description": "This module allows you to display high quality flight indicators using html, css and SVG images.",
-  "main": "js/module-flight-indicators.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/teocci/js-module-flight-indicators.git"
-  },
-  "keywords": [
-    "flight",
-    "indicator",
-    "artificial",
-    "horizon",
-    "instrument",
-    "gauge",
-    "turn",
-    "altitude",
-    "attitude",
-    "monitoring",
-    "realtime"
-  ],
-  "author": "Teocci",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/teocci/js-module-flight-indicators/issues"
-  },
-  "homepage": "https://github.com/teocci/js-module-flight-indicators#readme"
+    "name": "flight-indicators-js",
+    "title": "Flight Indicators JS",
+    "version": "1.0.4",
+    "description": "This module allows you to display high quality flight indicators using html, css and SVG images.",
+    "type": "commonjs",
+    "main": "./cjs/module-flight-indicators.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/teocci/js-module-flight-indicators.git"
+    },
+    "keywords": [
+        "flight",
+        "indicator",
+        "artificial",
+        "horizon",
+        "instrument",
+        "gauge",
+        "turn",
+        "altitude",
+        "attitude",
+        "monitoring",
+        "realtime"
+    ],
+    "author": "Teocci",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/teocci/js-module-flight-indicators/issues"
+    },
+    "homepage": "https://github.com/teocci/js-module-flight-indicators#readme",
+    "exports": {
+        "require": "./cjs/module-flight-indicators.js",
+        "import": "./esm/module-flight-indicators.mjs"
+    },
+    "module": "./esm/module-flight-indicators.mjs"
 }
