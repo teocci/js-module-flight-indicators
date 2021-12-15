@@ -2,7 +2,7 @@
  * Created by Teocci.
  * Author: teocci@yandex.com on 2021-Nov-04
  */
-export default class FlightIndicators {
+class FlightIndicators {
     static TAG = 'instrument'
 
     static TYPE_HEADING = 'heading'
@@ -438,3 +438,5 @@ export default class FlightIndicators {
         return instrument
     }
 }
+
+module.exports = FlightIndicators
