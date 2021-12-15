@@ -76,11 +76,6 @@ Some methods are used to update the indicators, giving the opportunity to create
 The way to use it is really simple.
 
 ```js
-const attitudeElement = document.querySelector("#attitude");
-const attitude = new FlightIndicators(
-    attitudeElement,
-    FlightIndicators.TYPE_ATTITUDE
-);
 attitude.updateRoll(30); // Sets the roll to 30 degrees
 ```
 

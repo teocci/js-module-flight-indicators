@@ -1,0 +1,33 @@
+{
+  "name": "flight-indicators-js",
+  "title": "Flight Indicators JS",
+  "version": "1.0.0",
+  "description": "This module allows you to display high quality flight indicators using html, css and SVG images.",
+  "main": "module-flight-indicators.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teocci/js-module-flight-indicators.git"
+  },
+  "keywords": [
+    "flight",
+    "indicator",
+    "artificial",
+    "horizon",
+    "instrument",
+    "gauge",
+    "turn",
+    "altitude",
+    "attitude",
+    "monitoring",
+    "realtime"
+  ],
+  "author": "Teocci",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teocci/js-module-flight-indicators/issues"
+  },
+  "homepage": "https://github.com/teocci/js-module-flight-indicators#readme"
+}

@@ -1,0 +1,33 @@
+{
+    "name": "fijs",
+    "title": "Flight Indicators JS",
+    "description": "This module allows you to display high quality flight indicators using html, css and SVG images.",
+    "version": "1.0.0",
+    "keywords": [
+        "flight",
+        "indicator",
+        "artificial",
+        "horizon",
+        "instrument",
+        "gauge",
+        "turn",
+        "altitude",
+        "attitude",
+        "monitoring",
+        "realtime"
+    ],
+    "author": {
+        "name": "Teocci",
+        "url": "https://github.com/teocci/js-module-flight-indicators"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/teocci/js-module-flight-indicators/blob/main/LICENSE"
+        }
+    ],
+    "bugs": "https://github.com/teocci/js-module-flight-indicators/issues",
+    "homepage": "https://github.com/teocci/js-module-flight-indicators",
+    "docs": "https://github.com/teocci/js-module-flight-indicators",
+    "download": "https://github.com/teocci/js-module-flight-indicators"
+}
