@@ -163,12 +163,12 @@
 
     showBox() {
         // let box = this.placeholder.querySelector('img.box.background')
-        let box = this.placeholder.querySelector('div.instrument img.box.background')
+        let box = this.placeholder.querySelector('img.box.background')
         box.classList.remove('hidden')
     }
 
     hideBox() {
-        let box = this.placeholder.querySelector('div.instrument img.box.background')
+        let box = this.placeholder.querySelector('img.box.background')
         box.classList.add('hidden')
     }
 

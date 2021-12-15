@@ -10,7 +10,3 @@ h2 {
   display: flex;
   flex-flow: row wrap;
 }
-
-.hidden {
-  display: none;
-}
