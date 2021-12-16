@@ -111,6 +111,10 @@ indicator.hideBox(); // Make the outer squared box of any instrument invisible
 
 ![Indicators][2]
 
+### Samples
+- [Flight Indicators JS Sample][3] using [Webpack][4]
+- [Flight Indicators JS Parcel Sample][5] using [Parcel][6]
+
 ### Author
 
 Teocci (teocci@yandex.com)
@@ -121,8 +125,12 @@ The code supplied here is covered under the MIT Open Source License.
 
 ### Credits
 
-Flight Indicators JS svg images was developed based on [Flight Indicators jQuery plugin][3].
+Flight Indicators JS svg images was developed based on [Flight Indicators jQuery plugin][7].
 
 [1]: https://www.npmjs.com/package/flight-indicators-js
 [2]: https://github.com/teocci/js-module-flight-indicators/blob/main/assets/fijs-sample.png?raw=true
-[3]: http://sebmatton.github.io/
+[3]: https://github.com/teocci/js-fijs-sample
+[4]: https://webpack.js.org/
+[5]: https://github.com/teocci/js-fijs-parcel-sample
+[6]: https://parceljs.org/
+[7]: http://sebmatton.github.io/
