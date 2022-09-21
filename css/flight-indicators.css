@@ -48,6 +48,6 @@
     transform: rotate(90deg);
 }
 
-.indicators .hidden {
+.instrument .hidden {
     display: none;
 }
